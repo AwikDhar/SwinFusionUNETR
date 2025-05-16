@@ -2,3 +2,15 @@ Swin UNetR architecture has a transformer Encoder and a CNN based decoder. I str
 Pre-training involved MAE(Masked AutoEncoder) inspired reconstruction training(50% of the 3D input randomly blacked, to be reconstructed)
 
 This was my Master's thesis project in 2023.
+
+Here's a model diagram of the model with 4 stages for the sake of simplicity(actual model has 5 stages).
+
+![swin fusion](https://github.com/user-attachments/assets/c56ef3fc-011b-46c2-b82f-d735cf4abfa2)
+
+Only the skip connection fusion over the last stage is explicitly drawn, with the fusion for other stages implied via the connections.
+
+Results:
+
+![image](https://github.com/user-attachments/assets/cd4ff77a-2a45-48f1-ade0-220af37ae52f)
+
+For more details, please refer to the attached report.
