@@ -3,7 +3,7 @@ Pre-training involved MAE(Masked AutoEncoder) inspired reconstruction training(5
 
 This was my Master's thesis project in 2023.
 
-Here's a model diagram of the model with 4 stages for the sake of simplicity(actual model has 5 stages).
+Here's a model diagram of Swin Fusion UNETR with 4 stages for the sake of simplicity(actual model has 5 stages).
 
 ![swin fusion](https://github.com/user-attachments/assets/c56ef3fc-011b-46c2-b82f-d735cf4abfa2)
 
